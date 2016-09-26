@@ -1,17 +1,17 @@
 <?php
 
 /**
- * ClientInfo::getOs(); 		eg:"Windows 10" or "Unknown OS Platform";
+ * ClientInfo::getOs(); 		eg:"Windows 10" or "";
  * ClientInfo::getBrowser(); 	eg:array("name"=>"Chrome", "version"=>"53.0.2785.116") or array();
  * ClientInfo::isRobot(); 		eg:"Googlebot" or false;
- * ClientInfo::getAddress(); 	eg:array("中国","浙江","杭州");
+ * ClientInfo::getAddress(); 	eg:array("中国","浙江","杭州") or null;
  */
 class ClientInfo {
 	//返回系统信息
 	public static function getOs ($user_agent=null){
 		$userAgent 	= strtolower($user_agent ? : $_SERVER['HTTP_USER_AGENT']);
 
-    	$os    		=   "Unknown OS Platform";
+    	$os    		=   "";
     	$os_array   =   array(
     		'/windows nt 10.0/i' 	=> 	'Windows 10',
 			'/windows nt 6.2/i'     =>  'Windows 8',
