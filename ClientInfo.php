@@ -54,6 +54,7 @@ class ClientInfo {
  		$browsers 	= array(
 				"firefox"	=>	"Firefox",
 				"msie"		=>	"Internet Explorer",
+				"edge" 		=> 	"Edge",
 				"opera"		=>	"Opera",
 				"chrome"	=>	"Chrome",
 				"safari"	=>	"Safari",
@@ -82,11 +83,13 @@ class ClientInfo {
 			'Yahoo! Slurp', 	// 雅虎 
 			'YodaoBot', 		// 有道 
 			'MSNBot', 			// Bing
+			'Bingbot', 			// Bing
 			"Sogou Spider", 	// 搜狗
 			"360spider", 		// 360 
 			"HaoSouSpider", 	// 360
 			"Sosospider", 		// 搜搜
-			"YoudaoBot" 		// 有道
+			"YoudaoBot", 		// 有道
+			"Yisouspider" 		// 神马搜索
 			// 更多爬虫关键字 
 		); 
   		foreach ($spiders as $spider) { 
