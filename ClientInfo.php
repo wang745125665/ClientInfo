@@ -14,6 +14,7 @@ class ClientInfo {
     	$os    		=   "";
     	$os_array   =   array(
     		'/windows nt 10.0/i' 	=> 	'Windows 10',
+			'/windows nt 6.3/i'     =>  'Windows 8.1',
 			'/windows nt 6.2/i'     =>  'Windows 8',
 			'/windows nt 6.1/i'     =>  'Windows 7',
 			'/windows nt 6.0/i'     =>  'Windows Vista',
@@ -52,12 +53,13 @@ class ClientInfo {
 
 		$browser 	= array();
  		$browsers 	= array(
-				"firefox"	=>	"Firefox",
-				"msie"		=>	"Internet Explorer",
-				"opera"		=>	"Opera",
-				"chrome"	=>	"Chrome",
-				"safari"	=>	"Safari",
-				"mozilla"	=>	"Mozilla"
+ 				"micromessenger"	=>	"WeChat",
+				"firefox"			=>	"Firefox",
+				"msie"				=>	"Internet Explorer",
+				"opera"				=>	"Opera",
+				"chrome"			=>	"Chrome",
+				"safari"			=>	"Safari",
+				"mozilla"			=>	"Mozilla"
             ); 
       
         foreach($browsers as $browserkey => $browsername) 
