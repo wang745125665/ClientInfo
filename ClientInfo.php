@@ -91,7 +91,9 @@ class ClientInfo {
 			"HaoSouSpider", 	// 360
 			"Sosospider", 		// 搜搜
 			"YoudaoBot", 		// 有道
-			"Yisouspider" 		// 神马搜索
+			"Yisouspider", 		// 神马搜索
+			"MJ12bot", 			// Majestic（UK）
+			"Gecko" 			// 未知
 			// 更多爬虫关键字 
 		); 
   		foreach ($spiders as $spider) { 
