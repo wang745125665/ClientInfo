@@ -93,7 +93,8 @@ class ClientInfo {
 			"YoudaoBot", 		// 有道
 			"Yisouspider", 		// 神马搜索
 			"MJ12bot", 			// Majestic（UK）
-			"Gecko" 			// 未知
+			"BLEXBot", 			// BLEXBot
+			"spbot",			// OpenLinkProfiler.org
 			// 更多爬虫关键字 
 		); 
   		foreach ($spiders as $spider) { 
